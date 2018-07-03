@@ -12,6 +12,8 @@ def exit():
     root.destroy()
     
 
+
+
 def done():
     conn= mysql.connector.connect(user="root",password="",host="localhost",database="time_table")
     cursor=conn.cursor()
